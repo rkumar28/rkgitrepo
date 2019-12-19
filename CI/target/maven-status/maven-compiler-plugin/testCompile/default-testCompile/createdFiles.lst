@@ -1,0 +1,4 @@
+stepDefinition\LandingPageProperties_Steps.class
+Hook\TestRunner.class
+stepDefinition\LaunchApplication_Steps.class
+stepDefinition\VerifyLandingPage_Steps.class

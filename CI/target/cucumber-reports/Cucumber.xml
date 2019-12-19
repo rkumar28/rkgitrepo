@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="144.017357">
+<testcase classname="LandingPage Properties." name="Navigate to SignIn Page from Landing page" time="52.769456">
+<system-out><![CDATA[Given SkinnyTies launched and active........................................passed
+When I click the SignInLink.................................................passed
+Then SignIn page should be launched.........................................passed
+And SignIn page should have email and password field displayed and enabled..passed
+And I Click the SkinnyTies logo Landing page should be displayed............passed
+]]></system-out>
+</testcase>
+<testcase classname="LandingPage Properties." name="Navigate to Registration Page from Landing page" time="47.91897">
+<system-out><![CDATA[Given SkinnyTies launched and active........................................passed
+When I Click the Register link..............................................passed
+Then Register page should be displayed......................................passed
+And Register page should have First Name and Last Name fields...............passed
+And Email, password and Confirm password fields for Account Info should be enabled and displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="LandingPage Properties." name="Click Register button with out entering value in Required fields" time="43.328931">
+<system-out><![CDATA[Given SkinnyTies launched and active........................................passed
+And Navigated to Register Page..............................................passed
+When I click Register button with out entering value in Required fields.....passed
+Then mandatory field warning should be displayed for all the fields.........passed
+And The Register page should be active......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
